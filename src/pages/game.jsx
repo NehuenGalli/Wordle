@@ -18,7 +18,7 @@ export default function GamePage() {
   const [currentGuess, setCurrentGuess] = useState("");
   const [guesses, setGuesses] = useState([]);
   const [keyStatuses, setKeyStatuses] = useState({});
-  const [isVerifying, setIsVerifying] = useState(false);
+  const [isVerifying, setIsVerifying] = useState(false); 
   const [gameStatus, setGameStatus] = useState("playing");
 
   const wordLength = session?.wordLenght ?? 5;

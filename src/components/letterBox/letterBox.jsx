@@ -1,4 +1,4 @@
-import "./LetterBox.css";
+import "./letterBox.css";
 
 export default function LetterBox({ letter = "", status = "", animating = false, delay = 0 }) {
   const className = `letter-box ${status} ${animating ? "flip" : ""}`;
