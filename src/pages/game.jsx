@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { useParams, useNavigate } from "react-router";
 import Board from "../components/board/board";
-import Keyboard from "../components/keyboard/keyboard";
+import Keyboard from "../components/keyboard/Keyboard";
 import { checkWord } from "../services/wordApi";
 import { toast } from "react-toastify";
 import { ROUTES } from "../constants";
