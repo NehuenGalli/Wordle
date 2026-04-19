@@ -1,4 +1,4 @@
-import "./difficultyLIst.css"
+import "./difficultyList.css"
 
 export default function DifficultyList({ difficulties, onSelect}) {
     return (
