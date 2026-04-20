@@ -5,7 +5,7 @@
     gap: 1.5rem;
     padding: 1.5rem 0;
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 2rem;
 }
 
 .header-top-row {
@@ -21,6 +21,8 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 0;
+    color: #f8fafc;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .header-subtitle {
@@ -31,21 +33,24 @@
     padding-top: 1rem;
     width: 100%;
     max-width: 300px;
+    color: #cbd5e1;
 }
 
 .header-logo {
     height: 4rem;
     width: auto;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
 }
 
 @media (max-width: 768px) {
     .header {
         gap: 0.5rem;
         padding: 1rem 0;
+        margin-top: 1rem;
     }
 
     .header-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         letter-spacing: 0.05em;
     }
 
@@ -54,6 +59,6 @@
     }
 
     .header-subtitle {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
