@@ -142,3 +142,25 @@
     width: 2.5rem;
   }
 }
+
+@media (max-height: 800px) {
+  .keyboard {
+    margin: 0.5rem auto;
+    gap: 0.3rem;
+    padding: 0.5rem;
+  }
+  .key-row {
+    gap: 0.3rem;
+  }
+  .key {
+    height: 2.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+  }
+}
+
+@media (max-height: 650px) {
+  .key {
+    height: 2.2rem;
+  }
+}

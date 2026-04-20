@@ -12,3 +12,9 @@
   display: flex;
   gap: 5px;
 }
+
+@media (max-height: 800px) {
+  .board {
+    margin: 1rem auto;
+  }
+}
