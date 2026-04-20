@@ -59,19 +59,19 @@
   }
 }
 
-@media (max-height: 800px) {
+@media (max-height: 700px) {
   .letter-box {
     width: 2.5rem;
     height: 2.5rem;
     font-size: 1.2rem;
-    border-radius: 6px;
-    margin: 0.1rem;
   }
 }
-@media (max-height: 650px) {
+
+@media (max-height: 600px) {
   .letter-box {
-    width: 2.2rem;
-    height: 2.2rem;
-    font-size: 1.1rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin: 0.1rem;
   }
 }

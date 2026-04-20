@@ -63,20 +63,38 @@
     }
 }
 
-@media (max-height: 800px) {
+@media (max-height: 700px) {
     .header {
         margin-top: 0.5rem;
         padding: 0.5rem 0;
         gap: 0.5rem;
     }
     .header-title {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     .header-logo {
         height: 2.5rem;
     }
     .header-subtitle {
+        font-size: 1rem;
         padding-top: 0.5rem;
-        font-size: 1.2rem;
+    }
+}
+
+@media (max-height: 600px) {
+    .header {
+        margin-top: 0.2rem;
+        padding: 0.2rem 0;
+        gap: 0.2rem;
+    }
+    .header-title {
+        font-size: 1.5rem;
+    }
+    .header-logo {
+        height: 2rem;
+    }
+    .header-subtitle {
+        font-size: 0.9rem;
+        padding-top: 0.2rem;
     }
 }

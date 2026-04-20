@@ -143,24 +143,25 @@
   }
 }
 
-@media (max-height: 800px) {
+@media (max-height: 700px) {
   .keyboard {
     margin: 0.5rem auto;
-    gap: 0.3rem;
     padding: 0.5rem;
-  }
-  .key-row {
-    gap: 0.3rem;
+    gap: 0.4rem;
   }
   .key {
-    height: 2.5rem;
-    font-size: 1rem;
-    border-radius: 6px;
+    height: 2.6rem;
   }
 }
 
-@media (max-height: 650px) {
+@media (max-height: 600px) {
+  .keyboard {
+    margin: 0.2rem auto;
+    padding: 0.2rem;
+    gap: 0.2rem;
+  }
   .key {
     height: 2.2rem;
+    font-size: 0.9rem;
   }
 }
