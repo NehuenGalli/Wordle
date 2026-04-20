@@ -5,6 +5,7 @@ import HomePage from "./pages/home";
 import GamePage from "./pages/game";
 import WinGamePage from "./pages/winGame";
 import LostGamePage from "./pages/lostGame";
+import "./App.css";
 
 export default function App() {
   return (
